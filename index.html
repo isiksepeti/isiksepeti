@@ -4,58 +4,30 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Işık Sepeti</title>
-<style
-  header{
-  background:#001f4d;
-  color:white;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  padding:20px;
-}
-
-.btn{
-  display:inline-block;
-  padding:12px 20px;
-  margin:10px;
-  border-radius:8px;
-  text-decoration:none;
-  color:white;
-  font-weight:bold;
-  background:#001f4d;
-}>
+<style>
 body{
   margin:0;
   font-family:Arial, sans-serif;
   background:#f6f6f6;
   color:#222;
 }
-/* HEADER */
 header{
-  background:white;
+  background:#001f4d;
   display:flex;
   align-items:center;
   justify-content:center;
   padding:20px;
 }
-/* LOGO */
 .logo{
   width:80px;
   height:auto;
-  margin-right:12px;
+  margin-right:15px;
 }
-/* TITLE */
 h1{
   margin:0;
-  font-size:26px;
+  font-size:32px;
+  color:white;
 }
-h1 span:first-child{
-  color:#222;
-}
-h1 span:last-child{
-  color:#001f4d;
-}
-/* HERO */
 .hero{
   background:white;
   text-align:center;
@@ -63,7 +35,7 @@ h1 span:last-child{
 }
 .hero h2{
   color:#001f4d;
-  font-size:28px;
+  font-size:22px;
   max-width:900px;
   margin:auto;
 }
@@ -72,7 +44,6 @@ h1 span:last-child{
   margin:20px auto;
   color:#555;
 }
-/* BUTTONS */
 .btn{
   display:inline-block;
   padding:12px 20px;
@@ -82,13 +53,15 @@ h1 span:last-child{
   color:white;
   font-weight:bold;
   background:#001f4d;
+  transition:0.3s;
 }
-/* SECTIONS */
+.btn:hover{
+  opacity:0.9;
+}
 .section{
   text-align:center;
   padding:40px 20px;
 }
-/* CARDS */
 .card{
   display:inline-block;
   background:white;
@@ -107,10 +80,7 @@ h1 span:last-child{
 <body>
 <header>
   <img src="LOGO.jpeg" alt="Işık Sepeti Logo" class="logo">
-  <h1>
-    <span>IŞIK</span>
-    <span>SEPETİ</span>
-  </h1>
+  <h1>IŞIK SEPETİ</h1>
 </header>
 <div class="hero">
   <h2>
@@ -119,11 +89,12 @@ h1 span:last-child{
   <p>
     Modern tasarımlar, dekoratif ürünler ve günlük kullanıma uygun aydınlatmalar tek çatı altında.
   </p>
-
-Bize Ulaşın
-
-Ürünleri İncele
-
+  <a class="btn" href="https://wa.me/90XXXXXXXXXX" target="_blank">
+    Bize Ulaşın
+  </a>
+  <a class="btn" href="https://instagram.com/isik.sepeti" target="_blank">
+    Ürünleri İncele
+  </a>
 </div>
 <div class="section">
   <div class="card">👶 Çocuk Odaları</div>
@@ -138,7 +109,7 @@ Bize Ulaşın
   <p>
     Ürünlerimiz hakkında soru sormak veya önerilerinizi paylaşmak için bizimle iletişime geçebilirsiniz.
   </p>
-  <a class="btn" href="https://wa.me/90XXXXXXXXXX">
+  <a class="btn" href="https://wa.me/90XXXXXXXXXX" target="_blank">
     Soru & Öneriler
   </a>
 </div>
