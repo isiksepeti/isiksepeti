@@ -4,15 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Işık Sepeti</title>
-
 <style>
 body{
   margin:0;
-  font-family:Arial;
+  font-family:Arial, sans-serif;
   background:#f6f6f6;
   color:#222;
 }
-
 /* HEADER */
 header{
   background:white;
@@ -21,43 +19,40 @@ header{
   justify-content:center;
   padding:20px;
 }
-
-/* LOGO ICON */
-<img src="lOGO.jpeg" alt="Işık Sepeti Logo" class="logo">
+/* LOGO */
+.logo{
+  width:80px;
+  height:auto;
+  margin-right:12px;
 }
-
-.logo-dot::after{
-  content:"";
-  width:4px;
-  height:4px;
-  background:#001f4d;
-  border-radius:50%;
-  position:absolute;
-  bottom:-6px;
-  left:3px;
-}
-
 /* TITLE */
 h1{
   margin:0;
   font-size:26px;
 }
-
-h1 span:first-child{color:#222;}
-h1 span:last-child{color:#001f4d;}
-
+h1 span:first-child{
+  color:#222;
+}
+h1 span:last-child{
+  color:#001f4d;
+}
 /* HERO */
 .hero{
   background:white;
   text-align:center;
   padding:60px 20px;
 }
-
 .hero h2{
   color:#001f4d;
-  font-size:24px;
+  font-size:28px;
+  max-width:900px;
+  margin:auto;
 }
-
+.hero p{
+  max-width:700px;
+  margin:20px auto;
+  color:#555;
+}
 /* BUTTONS */
 .btn{
   display:inline-block;
@@ -69,13 +64,12 @@ h1 span:last-child{color:#001f4d;}
   font-weight:bold;
   background:#001f4d;
 }
-
 /* SECTIONS */
 .section{
   text-align:center;
   padding:40px 20px;
 }
-
+/* CARDS */
 .card{
   display:inline-block;
   background:white;
@@ -86,54 +80,48 @@ h1 span:last-child{color:#001f4d;}
   box-shadow:0 3px 12px rgba(0,0,0,0.08);
   transition:0.3s;
 }
-
 .card:hover{
   transform:translateY(-5px);
 }
-}
 </style>
 </head>
-
 <body>
-
 <header>
-  <div class="logo-box">
-    <div class="logo-dot"></div>
-  </div>
-
+  <img src="LOGO.jpeg" alt="Işık Sepeti Logo" class="logo">
   <h1>
     <span>IŞIK</span>
     <span>SEPETİ</span>
   </h1>
 </header>
-
 <div class="hero">
-  <h2>Çocuk odalarından şık ofislere, evinizin her köşesine uygun aydınlatma çözümleri.</h2>
+  <h2>
+    Çocuk odalarından şık ofislere, evinizin her köşesine uygun aydınlatma çözümleri.
+  </h2>
+  <p>
+    Modern tasarımlar, dekoratif ürünler ve günlük kullanıma uygun aydınlatmalar tek çatı altında.
+  </p>
 
-<p style="max-width:700px;margin:20px auto;color:#555;">
-Modern tasarımlar, dekoratif ürünler ve günlük kullanıma uygun aydınlatmalar tek çatı altında.
-</p>
+Bize Ulaşın
 
-  <a class="btn" href="https://wa.me/90XXXXXXXXXX">WhatsApp Sipariş</a>
-  <a class="btn" href="https://instagram.com/isik.sepeti">Instagram</a>
+Ürünleri İncele
+
 </div>
+<div class="section">
   <div class="card">👶 Çocuk Odaları</div>
-<div class="card">🏡 Ev ve Yaşam</div>
-<div class="card">🏢 Ofis Aydınlatmaları</div>
-<div class="card">🌳 Dış Cephe ve Bahçe</div>
-<div class="card">✨ Dekoratif Tasarımlar</div>
-<div class="card">💡 Her Bütçeye Uygun</div></div>
+  <div class="card">🏡 Ev ve Yaşam</div>
+  <div class="card">🏢 Ofis Aydınlatmaları</div>
+  <div class="card">🌳 Dış Cephe ve Bahçe</div>
+  <div class="card">✨ Dekoratif Tasarımlar</div>
+  <div class="card">💡 Her Bütçeye Uygun</div>
 </div>
-
-</body><div class="section">
+<div class="section">
   <h2>Bize Yazın</h2>
-
   <p>
     Ürünlerimiz hakkında soru sormak veya önerilerinizi paylaşmak için bizimle iletişime geçebilirsiniz.
   </p>
-
   <a class="btn" href="https://wa.me/90XXXXXXXXXX">
     Soru & Öneriler
   </a>
 </div>
+</body>
 </html>
